@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="sI3ZRXbZXwl2Qk7dSxOQlDXvtkXsXiHjHngwgzZXeLo" />
+    <title>e-BÜLTEN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        a {
+            text-decoration: none;
+
+        }
+
+        .f1 {
+            background-color: #00cd66;
+        }
+
+        .d-flex {
+            height: 60px;
+        }
+
+        .yvr {
+            border-radius: 10%;
+        }
+
+        .b2 {
+            margin-top: 20px;
+        }
+
+        img {
+            width: 310px;
+            height: 260px;
+        }
+
+        .card {
+            width: 19.438rem;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #aed7b4;
+        }
+
+        .btn {
+            display: block;
+        }
+
+        .card-body {
+            width: 309px;
+            height: 140px;
+        }
+
+        .as {
+            width: 277px;
+            height: 70px;
+            text-align: center;
+
+        }
+
+        img.yvr {
+            width: 75px;
+            height: 55px;
+        }
+
+        .card.sh {
+            box-shadow: 0px 0px 18px 7px rgb(107, 189, 110);
+        }
+
+        img.z2 {
+            color: white;
+            width: 30px;
+            height: 27px;
+            margin-right: 5px;
+        }
+
+        .scimd {
+            margin-top: 40px;
+        }
+
+        .fcbk {
+            margin-right: 15px;
+            width: 60px;
+            height: 50px;
+        }
+
+        .hrm {
+            margin-top: 60px;
+        }
+
+        .inst {
+            margin-left: 15px;
+            width: 80px;
+            height: 70px;
+        }
+
+        .offcanvas {
+            background-color: #00cd66;
+        }
+
+        .offcanvas-body {
+            background-color: #00cd66;
+            font-weight: 500;
+        }
+
+        .nav-item {
+            background-color: #00cd66;
+        }
+
+        .dropdown-menu {
+            background-color: #eecfa1;
+        }
+
+        .m2 {
+            margin-top: 120px;
+            color: #00cd66;
+            text-shadow: 1px 1px black;
+        }
+
+        .v4 {
+            margin-left: auto;
+            margin-right: auto;
+            width: 190px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid fixed-top f1">
+
+        <div class="d-flex justify-content-around align-items-center">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a target="_blank" class="navbar-brand" href="https://www.guncelziraat.com.tr/"><img class="yvr"
+                            src="yenimarka.png"> e-BÜLTEN</a>
+
+
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">GÜNCEL ZİRAAT</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a target="_blank" class="nav-link active text-white" aria-current="page"
+                                        href="https://www.guncelziraat.com.tr/">WEB SİTEMİZ</a>
+                                </li>
+
+
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        e-BÜLTEN ÜRÜNLERİ
+                                    </a>
+                                    <ul class="dropdown-menu">
+
+                                        <li><a target="_blank" class="dropdown-item"
+                                                href="https://www.facebook.com/photo.php?fbid=7398351946854264&set=pb.100000385962793.-2207520000&type=3&locale=tr_TR">TYTANIT
+                                            </a></li>
+                                        <li><a target="_blank" class="dropdown-item"
+                                                href="https://www.facebook.com/photo.php?fbid=7398351856854273&set=pb.100000385962793.-2207520000&type=3&locale=tr_TR">VANADOO
+                                            </a>
+                                        </li>
+                                        <li><a target="_blank" class="dropdown-item"
+                                                href="https://www.facebook.com/photo.php?fbid=6008552262500913&set=pb.100000385962793.-2207520000&type=3&locale=tr_TR">OPTIMUS</a>
+                                        </li>
+                                        <li><a target="_blank" class="dropdown-item"
+                                                href="https://www.facebook.com/photo.php?fbid=6181296085226529&set=pb.100000385962793.-2207520000&type=3&locale=tr_TR">COMCAT</a>
+                                        </li>
+                                        <li><a target="_blank" class="dropdown-item"
+                                                href="https://www.facebook.com/photo.php?fbid=5290097051013108&set=pb.100000385962793.-2207520000&type=3&locale=tr_TR">FOZIN</a>
+                                        </li>
+                                        <li><a target="_blank" class="dropdown-item"
+                                                href="https://www.facebook.com/photo.php?fbid=5278095985546548&set=pb.100000385962793.-2207520000&type=3&locale=tr_TR">POTKAL</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        SOSYAL MEDYA
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a target="_blank" class="dropdown-item"
+                                                href="https://www.facebook.com/mehmet.kucukbayram.1?locale=tr_TR">facebook</a>
+                                        </li>
+                                        <li><a target="_blank" class="dropdown-item"
+                                                href="https://www.instagram.com/mehmetkb2/">İnstagram</a></li>
+                                        <li><a target="_blank" class="dropdown-item"
+                                                href="https://www.facebook.com/kamerk1?locale=tr_TR">Dron İçin
+                                                Facebook</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        İLETİŞİM
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a target="_blank" class="dropdown-item"
+                                                href="https://www.guncelziraat.com.tr/iletisim">İLETİŞİM</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </nav>
+
+        </div>
+
+
+    </div>
+
+    <center class="m2">
+
+        <p class="fw-bolder  fs-2">Bezelye - Bakla Ürünleri</p>
+
+    </center>
+
+    <div class="container-fluid b2">
+
+        <div class="row">
+
+            <div class="col mt-5 mb-4">
+
+                <div class="card sh">
+                    <img class="card-img-top" src="bz1.png" alt="">
+                    <div class="card-body">
+
+                        <div class="d-flex align-items-center justify-content-center as fw-semibold">
+                            Bezelye Aktivatör.
+                            <br>
+                            Avantajlı Fiyat ...
+                        </div>
+
+                        <a href="tel:+905535301510" class="btn btn-success fw-semibold"><img class="z2"
+                                src="tl.png">HEMEN
+                            ARAYIN</a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="col mt-5 mb-4">
+
+
+                <div class="card sh">
+                    <img src="bz2.png" alt="" class="card-img-top">
+                    <div class="card-body">
+
+                        <div class="d-flex align-items-center justify-content-center as fw-semibold">
+                            Bezelye Aktivatör.
+                            <br>
+                            Avantajlı Fiyat ...
+                        </div>
+
+                        <a href="tel:+905535301510" class="btn btn-success fw-semibold"><img class="z2"
+                                src="tl.png">HEMEN
+                            ARAYIN</a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="col mt-5 mb-4">
+
+
+                <div class="card sh">
+                    <img class="card-img-top" src="bz3.png" alt="">
+                    <div class="card-body">
+
+                        <div class="d-flex align-items-center justify-content-center as fw-semibold">
+                            Bezelye Aktivatör
+                            <br>
+                            Avantajlı Fiyat ...
+
+                        </div>
+
+                        <a href="tel:+905535301510" class="btn btn-success fw-semibold"><img class="z2"
+                                src="tl.png">HEMEN
+                            ARAYIN</a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col mt-5 mb-4">
+
+
+                <div class="card sh">
+                    <img class="card-img-top" src="bz4.png" alt="">
+                    <div class="card-body">
+
+                        <div class="d-flex align-items-center justify-content-center as fw-semibold">
+                            Bezelye Aktivatör
+                            <br>
+                            Avantajlı Fiyat ...
+                        </div>
+
+                        <a href="tel:+905535301510" class="btn btn-success fw-semibold"><img class="z2"
+                                src="tl.png">HEMEN
+                            ARAYIN</a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col mt-5 mb-4">
+
+                <div class="card sh">
+                    <img class="card-img-top" src="bk1.png" alt="">
+                    <div class="card-body">
+
+                        <div class="d-flex align-items-center justify-content-center as fw-semibold">
+                            Baklada Yüksek Randıman.
+                            <br>
+                            Avantajlı Fiyat ...
+                        </div>
+
+                        <a href="tel:+905535301510" class="btn btn-success fw-semibold"><img class="z2"
+                                src="tl.png">HEMEN
+                            ARAYIN</a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="col mt-5 mb-4">
+
+
+                <div class="card sh">
+                    <img class="card-img-top" src="bk2.png" alt="">
+                    <div class="card-body">
+
+                        <div class="d-flex align-items-center justify-content-center as fw-semibold">
+                            Baklada Yüksek Randıman.
+                            <br>
+                            Avantajlı Fiyat ...
+                        </div>
+
+                        <a href="tel:+905535301510" class="btn btn-success fw-semibold"><img class="z2"
+                                src="tl.png">HEMEN
+                            ARAYIN</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col mt-5 mb-4">
+
+                <div class="card sh">
+                    <img class="card-img-top" src="bk3.png" alt="">
+                    <div class="card-body">
+
+                        <div class="d-flex align-items-center justify-content-center as fw-semibold">
+                            Baklada Yüksek Randıman.
+                            <br>
+                            Avantajlı Fiyat ...
+                        </div>
+
+                        <a href="tel:+905535301510" class="btn btn-success fw-semibold"><img class="z2"
+                                src="tl.png">HEMEN
+                            ARAYIN</a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="col mt-5 mb-4">
+
+                <div class="card sh">
+                    <img class="card-img-top" src="bk4.png" alt="">
+                    <div class="card-body">
+
+                        <div class="d-flex align-items-center justify-content-center as fw-semibold">
+                            Baklada Yüksek Randıman.
+                            <br>
+                            Avantajlı Fiyat ...
+                        </div>
+
+                        <a href="tel:+905535301510" class="btn btn-success fw-semibold"><img class="z2"
+                                src="tl.png">HEMEN
+                            ARAYIN</a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col mt-5 mb-4">
+
+                <div class="card sh">
+                    <div class="v4">
+                        <img class="card-img-top" src="v6.png" alt="">
+                    </div>
+                    <div class="card-body">
+
+                        <div class="d-flex align-items-center justify-content-center as fw-semibold">
+                            Baklada Yüksek Randıman.
+                            <br>
+                            Avantajlı Fiyat ...
+                        </div>
+
+                        <a href="tel:+905535301510" class="btn btn-success fw-semibold"><img class="z2"
+                                src="tl.png">HEMEN
+                            ARAYIN</a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="col mt-5 mb-4">
+
+                <div class="card sh">
+                    <div class="v4">
+                        <img class="card-img-top" src="p2.png" alt="">
+                    </div>
+                    <div class="card-body">
+
+                        <div class="d-flex align-items-center justify-content-center as fw-semibold">
+                            Baklada Yüksek Randıman.
+                            <br>
+                            Avantajlı Fiyat ...
+                        </div>
+
+                        <a href="tel:+905535301510" class="btn btn-success fw-semibold"><img class="z2"
+                                src="tl.png">HEMEN
+                            ARAYIN</a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col">
+
+                <center class="hrm">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24437.116905139817!2d28.406947!3d40.038825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b60e90d043197d%3A0x77e349db469027bd!2sg%C3%BCncel%20ziraat!5e0!3m2!1str!2str!4v1704481771759!5m2!1str!2str"
+                        width="310" height="310" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </center>
+
+                <center class="scimd">
+                    <p class="fw-bolder  fs-2">Bizi Takip Edin</p>
+                    <span><a href="https://www.facebook.com/mehmet.kucukbayram.1?locale=tr_TR"><img src="fcbk.png"
+                                class="fcbk"></a>
+                    </span><span><a href="https://www.instagram.com/mehmetkb2/"><img src="inst.png"
+                                class="inst"></a></span></p>
+                </center>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
